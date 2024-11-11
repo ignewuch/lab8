@@ -1,0 +1,81 @@
+/* nav (top) styling */
+nav {
+  background-color: blue;      /* blue background color for the nav */
+  overflow: hidden;          
+  float: left;                 /* nav floats to the left */
+  width: 100%;                 
+  position: relative;          
+  list-style-type: none;       /* remove bullet points */
+  margin: 0;                   
+  padding: 0;       
+  left: 50%;                   /* move nav to center horizontally */
+  float: left;                 /* float the nav to the left */
+  display: block;              /* display nav as a block element */
+}
+
+/* inside navigation list, remove any default list styles */
+nav ul {
+  list-style-type: none;       /* remove bullet points */
+  margin: 0;                   
+  padding: 0;                 
+  text-align: center;          /* center-align the text */
+}
+
+/* nav list items */
+nav ul li {
+  display: inline-block;       /* arrange nav items horizontally */
+  padding: 10px 20px;        
+}
+
+/* links inside the nav */
+nav a {
+  color: #fff;                 /* set text color to white */
+  text-decoration: none;       /* remove underline */
+  background-color: #000;      /* black background for links */
+  padding: 10px 20px;          
+  text-decoration: underline overline; /* add underline and overline text decoration */
+}
+
+/* hover effect for nav links */
+nav a:hover {
+  text-decoration: underline;  /* add underline on hover */
+}
+
+/* sidebar (right side) styling */
+aside {
+  position: fixed;             
+  right: 0%;                   /* align the sidebar to the right */
+  background-color: red;       /* red background for the sidebar */
+  height: 100%;                
+  width: 20%;                  
+  list-style-type: none;       /* remove bullet points */
+  text-align: center;          /* center-align the sidebar items */
+  padding: 0;                  
+  display: block;              /* display the sidebar as a block */
+  color: #fff;                 /* set text color to white */
+}
+
+/* sidebar list, remove any default list styles */
+aside ul {
+  list-style-type: none;       /* remove bullet points */
+  padding: 0;                 
+  margin: 0;                   
+}
+
+/* sidebar list items */
+aside ul li {
+  padding: 15px 0;             
+}
+
+/* Links inside the sidebar */
+aside a {
+  color: #fff;                 /* text color to white */
+  text-decoration: none;       /* remove the underline */
+  background-color: #000;      /* black background for links */
+  padding: 10px 20px;        
+}
+
+/* hover effect for sidebar links */
+aside a:hover {
+  text-decoration: underline;  /* underline on hover */
+}
